@@ -56,8 +56,10 @@ main{
 	
 }
 
+
+
 article {
-	width: 45%;
+	width: 51%;
 	height: 370px;
 	background-color:rgba(238, 238, 238, 0.7);
 	margin: 15px;
@@ -89,4 +91,28 @@ article {
     background-color: grey;
     opacity: 0.7;
     margin: 0 auto;
+}
+
+aside {
+	width: 700px;
+	margin-left: 150px;
+
+}
+
+@media screen and (min-width: 950px){
+
+
+article {
+	width: 45%;
+	height: 370px;
+	background-color:rgba(238, 238, 238, 0.7);
+	margin: 15px;
+	margin-left: 20px;
+	padding: 5px;
+
+    
+
+
+}
+
 }
